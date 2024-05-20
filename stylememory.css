@@ -80,7 +80,7 @@ h2{
     position: absolute;
     inset: 0;
     background-color: #209d7b;
-    transition: 0.25s;
+    transition: 0.24s;
     transform: rotateY(0deg);
     backface-visibility: hidden;
 }
