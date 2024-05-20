@@ -21,7 +21,7 @@ body{
     flex-direction: column;
     gap: 29px;
     background-color: #0d614b;
-    padding: 40px 60px;
+    padding: 40px 5px;
 }
 /*item flip*/
 h2{
