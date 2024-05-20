@@ -44,7 +44,7 @@ h2{
 }
 /*CSS FOR RESET BUTTON*/
 .reset:focus{
-    color: white;
+    color: grey;
     background: #267c65;
 }
 
