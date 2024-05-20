@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const gameContainer = document.querySelector('.game');
     const resetButton = document.querySelector('.reset');
     let shufemojis = shuffle(emojis);
-
+//added js code
     resetButton.addEventListener('click', resetGame);
 
     function resetGame() {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function createGameBoard() {
         shufemojis.forEach(emoji => {
             const box = document.createElement('div');
-            box.className = 'item';
+            box.className = ' item ';
             box.innerHTML = emoji;
             box.addEventListener('click', handleClick);
             gameContainer.appendChild(box);
